@@ -1,0 +1,6 @@
+[report]
+include =
+    src/circulos/*
+omit =
+    */test*
+    */upgrades/*
