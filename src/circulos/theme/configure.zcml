@@ -19,7 +19,7 @@
 
   <genericsetup:registerProfile
       name="default"
-      title="Plone Theme: Circulos Matematicos"
+      title="Circulos Matematicos (Theme)"
       directory="profiles/default"
       description="Installs the Plone theme package circulos.theme."
       provides="Products.GenericSetup.interfaces.EXTENSION"
@@ -28,7 +28,7 @@
 
   <genericsetup:registerProfile
       name="uninstall"
-      title="Uninstall: Plone Theme: Circulos Matematicos"
+      title="Uninstall: Circulos Matematicos (Theme)"
       directory="profiles/uninstall"
       description="Uninstalls the Plone theme package circulos.theme."
       provides="Products.GenericSetup.interfaces.EXTENSION"
