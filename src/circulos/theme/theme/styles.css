@@ -4654,16 +4654,17 @@ ul.picker__list {
   padding: 10px 15px;
   color: white;
   font-size: 17px;
+  background-color: #55BF97;
 }
 /* line 18, http://localhost:8084/moda/++theme++moda-theme/++theme++barceloneta/less/sitenav.plone.less */
 .plone-nav > li > a:hover,
 .plone-nav > li > a:focus {
   text-decoration: none;
-  background-color: #263669;
+  background-color: #003351;
 }
 /* line 27, http://localhost:8084/moda/++theme++moda-theme/++theme++barceloneta/less/sitenav.plone.less */
 .plone-navbar {
-  background-color: #0a528d;
+  background-color: #AADFF1;
   color: white;
   position: relative;
   min-height: 50px;
@@ -4808,7 +4809,7 @@ ul.picker__list {
 .plone-navbar-nav > .selected > a:hover,
 .plone-navbar-nav > .selected > a:focus {
   color: white;
-  background-color: #263669;
+  background-color: #003351;
 }
 @media (min-width: 768px) {
   /* line 168, http://localhost:8084/moda/++theme++moda-theme/++theme++barceloneta/less/sitenav.plone.less */
@@ -5839,9 +5840,11 @@ body.template-logged_out #content-core .portletFooter {
   }
 }
 /* line 34, http://localhost:8084/moda/++theme++moda-theme/styles.less */
-#portal-footer-wrapper,
+#portal-footer-wrapper{
+  background-color: #2e3133;
+}
 #content-header {
-  background-color: #263669;
+  background: linear-gradient(45deg, rgb(0, 51, 81), rgb(32, 79, 116));
 }
 /* line 40, http://localhost:8084/moda/++theme++moda-theme/styles.less */
 #sponsors {
