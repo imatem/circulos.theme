@@ -4654,7 +4654,7 @@ ul.picker__list {
   padding: 10px 15px;
   color: white;
   font-size: 17px;
-  background-color: #55BF97;
+  background-color: inherit;
 }
 /* line 18, http://localhost:8084/moda/++theme++moda-theme/++theme++barceloneta/less/sitenav.plone.less */
 .plone-nav > li > a:hover,
@@ -5864,3 +5864,36 @@ body.template-logged_out #content-core .portletFooter {
   display: inline-block;
   padding-left: 10px;
 }
+
+#portaltab-index_html {
+  background-color: #72BC9A;
+}
+
+#portaltab-participacion {
+  background-color: #66AA88;
+}
+
+#portaltab-objetivos {
+  background-color: #72BC9A;
+}
+
+#portaltab-proximos-circulos {
+  background-color: #66AA88;
+}
+
+#portaltab-inscripciones {
+  background-color: #72BC9A;
+}
+
+#portaltab-contacto {
+  background-color: #66AA88;
+}
+
+#portaltab-lugar {
+  background-color: #72BC9A;
+}
+
+#portaltab-galeria {
+  background-color: #66AA88;
+}
+
