@@ -25,15 +25,12 @@
     <div class="photoAlbumEntry"
          tal:define="ob image/getObject;
                      scale ob/@@images;
-                     img_tag python:scale.scale('image', scale='thumb')">
+                     img_tag python:scale.scale('image', width=200, height=200)">
       <a tal:attributes="href string:${image/getURL}/view;
                          title image/Description">
         <span class="photoAlbumEntryWrapper">
           <img tal:condition="img_tag"
               tal:replace="structure img_tag/tag" />
-        </span>
-        <span class="photoAlbumEntryTitle" tal:content="image/Title">
-            Title
         </span>
       </a>
     </div>
