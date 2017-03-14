@@ -5826,17 +5826,30 @@ body.template-logged_out #content-core .portletFooter {
   background-position: center center;
   /* x-Ausrichtung - y-Ausrichtung */
 }
+
+.plone-navbar-collapse{
+  width: 110% !important;
+}
+
 /*// Media Queries //*/
 @media screen and (max-width: 991px) {
   /* line 23, http://localhost:8084/moda/++theme++moda-theme/styles.less */
   #portal-header {
     height: 200px;
   }
+  img.convocatoria{
+    width: 100%;
+  }
+
 }
 @media screen and (max-width: 768px) {
   /* line 29, http://localhost:8084/moda/++theme++moda-theme/styles.less */
   #portal-header {
     height: 120px;
+  }
+
+  img.convocatoria{
+    width: 100%;
   }
 }
 /* line 34, http://localhost:8084/moda/++theme++moda-theme/styles.less */
