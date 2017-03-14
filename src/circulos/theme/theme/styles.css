@@ -4651,7 +4651,7 @@ ul.picker__list {
 .plone-nav > li > a {
   position: relative;
   display: block;
-  padding: 10px 15px;
+  padding: 10px 13px;
   color: white;
   font-size: 17px;
   background-color: inherit;
@@ -5827,9 +5827,6 @@ body.template-logged_out #content-core .portletFooter {
   /* x-Ausrichtung - y-Ausrichtung */
 }
 
-.plone-navbar-collapse{
-  width: 110% !important;
-}
 
 /*// Media Queries //*/
 @media screen and (max-width: 991px) {
