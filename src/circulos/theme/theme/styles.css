@@ -5827,9 +5827,13 @@ body.template-logged_out #content-core .portletFooter {
   /* x-Ausrichtung - y-Ausrichtung */
 }
 
+img.convocatoria{
+  margin-right: 4%;
+}
+
 
 /*// Media Queries //*/
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1200px) {
   /* line 23, http://localhost:8084/moda/++theme++moda-theme/styles.less */
   #portal-header {
     height: 150px;
@@ -5854,6 +5858,9 @@ body.template-logged_out #content-core .portletFooter {
   /* line 29, http://localhost:8084/moda/++theme++moda-theme/styles.less */
   #portal-header {
     height: 80px;
+  }
+  img.convocatoria{
+    width: 100%;
   }
 }
 
