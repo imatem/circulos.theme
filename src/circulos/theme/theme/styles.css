@@ -5828,7 +5828,9 @@ body.template-logged_out #content-core .portletFooter {
 }
 
 img.convocatoria{
-  margin-right: 4%;
+  width: 49%;
+  margin-right: 1%;
+  vertical-align: top;
 }
 
 
@@ -5838,12 +5840,9 @@ img.convocatoria{
   #portal-header {
     height: 150px;
   }
-  img.convocatoria{
-    width: 100%;
-  }
-
 }
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 991px) {
   /* line 29, http://localhost:8084/moda/++theme++moda-theme/styles.less */
   #portal-header {
     height: 120px;
@@ -5851,6 +5850,7 @@ img.convocatoria{
 
   img.convocatoria{
     width: 100%;
+    margin-bottom: 12px;
   }
 }
 
@@ -5861,6 +5861,7 @@ img.convocatoria{
   }
   img.convocatoria{
     width: 100%;
+    margin-bottom: 12px;
   }
 }
 
