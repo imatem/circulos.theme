@@ -5819,7 +5819,7 @@ body.template-logged_out #content-core .portletFooter {
   height: 239px;
   padding: 0;
   margin: 0;
-  background-image: url("header.jpg");
+  background-image: url("header.png");
   background-size: contain;
   /* Könnte variieren -contain- */
   background-repeat: no-repeat;
@@ -5885,7 +5885,7 @@ div.foofig{
   background-color: #2e3133;
 }
 #content-header {
-  background: rgb(23,58,86);
+  background: rgb(0,38,104);
 }
 /* line 40, http://localhost:8084/moda/++theme++moda-theme/styles.less */
 #sponsors {
