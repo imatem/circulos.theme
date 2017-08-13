@@ -1976,9 +1976,17 @@ fieldset[disabled] input[type="checkbox"] {
   margin-bottom: 15px;
 }
 /* line 179, http://localhost:8084/moda/++theme++moda-theme/++theme++barceloneta/less/forms.plone.less */
-.field span.option {
+/*.field span.option {
   display: block;
+}*/
+/*for voluntiers */
+.field span.option {
+    display: contents; 
+    margin-left: 1.2em;
 }
+
+
+
 /* line 184, http://localhost:8084/moda/++theme++moda-theme/++theme++barceloneta/less/forms.plone.less */
 .field.error {
   background: #fbe8e4;
