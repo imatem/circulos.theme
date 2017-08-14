@@ -1981,7 +1981,8 @@ fieldset[disabled] input[type="checkbox"] {
 }*/
 /*for voluntiers */
 .field span.option {
-    display: contents; 
+    /*display: contents; */
+    display: -webkit-inline-box;
     margin-left: 1.2em;
 }
 
